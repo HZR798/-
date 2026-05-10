@@ -1,0 +1,17 @@
+{
+  "name": "personal-blog",
+  "version": "1.0.0",
+  "description": "A personal blog showcasing front-end engineering skills",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --dist-dir dist --public-url ./",
+    "start": "npm run build && npx serve dist"
+  },
+  "keywords": ["blog", "frontend", "html", "css", "javascript"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
